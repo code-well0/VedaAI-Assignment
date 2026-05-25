@@ -1,27 +1,30 @@
-# dependencies
+# Dependencies
 node_modules/
-backend/node_modules/
-frontend/node_modules/
+vedaai-backend/node_modules/
+vedaai-frontend/node_modules/
 
-# env files
+# Environment
 .env
-backend/.env
-frontend/.env
+.env.local
+vedaai-backend/.env
+vedaai-frontend/.env
 
-# build folders
-dist/
+# Build output
+vedaai-backend/dist/
+vedaai-frontend/.next/
+vedaai-frontend/out/
 build/
-.next/
 
-# logs
+# Runtime / local data (MongoDB is source of truth)
+vedaai-backend/uploads/
+vedaai-backend/data/
+
+# Logs
 *.log
+npm-debug.log*
 
-# editor files
+# Editor & OS
 .vscode/
 .idea/
-
-# OS files
 .DS_Store
 Thumbs.db
-backend/uploads
-backend/data/assignments.json
