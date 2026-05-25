@@ -2,6 +2,11 @@
 
 A premium, full-stack AI-powered question paper and marking scheme creator built for teachers. It matches the Figma design screenshots with high visual fidelity, supports background queuing for generation, communicates state transitions in real time using WebSockets, and offers premium A4 PDF downloads.
 
+## Live Demo
+
+Frontend: `https://your-frontend.vercel.app`  
+Backend API: `https://your-backend.onrender.com`
+
 ---
 
 ## **Full Stack Architecture**
@@ -33,7 +38,7 @@ sequenceDiagram
 ```
 
 ### **1. Frontend (`vedaai-frontend`)**
-* **Framework:** Next.js + TypeScript (App Router, compiled Turbine mode).
+* **Framework:** Next.js + TypeScript (App Router with Turbopack).
 * **State Management:** Zustand (for clean, reactive store operations, CRUD actions, and step wizard states).
 * **Styling:** Vanilla CSS + CSS Modules + modern Inter typography (premium dark modes, micro-animations, glowing blur rings, and beautiful badges).
 * **WebSockets:** `socket.io-client` for active, real-time subscription to assignment updates.
@@ -58,7 +63,13 @@ sequenceDiagram
 
 ## **API Design & Routes**
 
-All REST endpoints operate on `http://localhost:5000/api/assignments`:
+All REST endpoints operate on 
+
+Production API Base URL:
+`https://your-backend.onrender.com/api/assignments`
+
+Local Development API:
+`http://localhost:5000/api/assignments` :
 
 | Endpoint | Method | Payload | Purpose |
 |----------|--------|---------|---------|
