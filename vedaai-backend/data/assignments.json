@@ -1,0 +1,549 @@
+[
+  {
+    "id": "932308097",
+    "title": "science test",
+    "quizTopic": "Microorganisms : Friends  And Foe",
+    "subject": "english, science",
+    "className": "8th",
+    "schoolName": "Delhi Public School",
+    "dueDate": "28-05-2026",
+    "assignedOn": "25-05-2026",
+    "additionalInfo": "",
+    "fileUrl": "/uploads/file-1779707416678-173245549.pdf",
+    "status": "completed",
+    "questionTypes": [
+      {
+        "id": "1",
+        "type": "Multiple Choice Questions",
+        "count": 4,
+        "marks": 1
+      },
+      {
+        "id": "2",
+        "type": "Short Questions",
+        "count": 3,
+        "marks": 2
+      },
+      {
+        "id": "1779707333603",
+        "type": "Long Questions",
+        "count": 3,
+        "marks": 4
+      },
+      {
+        "id": "1779707345985",
+        "type": "Diagram/Graph-Based Questions",
+        "count": 1,
+        "marks": 5
+      }
+    ],
+    "totalQuestions": 11,
+    "totalMarks": 27,
+    "aiResponseText": "The exam paper consists of various question types focused on microorganisms.",
+    "sections": [
+      {
+        "title": "Section A",
+        "instruction": "Multiple Choice Questions. Attempt all questions. Each question carries 1 mark.",
+        "questions": [
+          {
+            "text": "Which of the following is a unicellular microorganism? (a) Mushroom (b) Yeast (c) Algae (d) Fern",
+            "difficulty": "Easy",
+            "marks": 1
+          },
+          {
+            "text": "What is the role of nitrogen-fixing bacteria? (a) They decompose organic matter. (b) They convert nitrogen gas into usable forms for plants. (c) They cause diseases in plants. (d) They produce energy.",
+            "difficulty": "Easy",
+            "marks": 1
+          },
+          {
+            "text": "Which microorganism is primarily used in the fermentation of bread? (a) Bacteria (b) Virus (c) Yeast (d) Algae",
+            "difficulty": "Easy",
+            "marks": 1
+          },
+          {
+            "text": "Which of the following is a harmful effect of microorganisms? (a) Nitrogen fixation (b) Food spoilage (c) Antibiotic production (d) Decomposition",
+            "difficulty": "Easy",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "title": "Section B",
+        "instruction": "Short Questions. Attempt all questions. Each question carries 2 marks.",
+        "questions": [
+          {
+            "text": "Explain the process of fermentation and its importance in food preservation.",
+            "difficulty": "Moderate",
+            "marks": 2
+          },
+          {
+            "text": "What are the differences between harmful and beneficial microorganisms?",
+            "difficulty": "Moderate",
+            "marks": 2
+          },
+          {
+            "text": "Describe the nitrogen cycle and the role of microorganisms in it.",
+            "difficulty": "Moderate",
+            "marks": 2
+          }
+        ]
+      },
+      {
+        "title": "Section C",
+        "instruction": "Long Questions. Attempt all questions. Each question carries 4 marks.",
+        "questions": [
+          {
+            "text": "Discuss the various habitats where microorganisms can be found and how they adapt to these environments.",
+            "difficulty": "Moderate",
+            "marks": 4
+          },
+          {
+            "text": "Explain the significance of microorganisms in food preservation, including methods and examples.",
+            "difficulty": "Moderate",
+            "marks": 4
+          },
+          {
+            "text": "Analyze the impact of harmful microorganisms on human health, providing examples of diseases they cause.",
+            "difficulty": "Moderate",
+            "marks": 4
+          }
+        ]
+      },
+      {
+        "title": "Section D",
+        "instruction": "Diagram/Graph-Based Questions. Attempt all questions. Each question carries 5 marks.",
+        "questions": [
+          {
+            "text": "Draw a labeled diagram of the nitrogen cycle, indicating the roles of different microorganisms.",
+            "difficulty": "Moderate",
+            "marks": 5
+          }
+        ]
+      }
+    ],
+    "answerKey": "1. Correct answer: (b) Yeast. Yeast is a unicellular fungus used in fermentation, while mushrooms, algae, and ferns are multicellular.\n\n2. Correct answer: (b) They convert nitrogen gas into usable forms for plants. Nitrogen-fixing bacteria play a crucial role in making nitrogen accessible to plants, while the other options do not accurately describe their function.\n\n3. Correct answer: (c) Yeast. Yeast is primarily responsible for fermentation in bread-making, while the other organisms listed do not serve this purpose.\n\n4. Correct answer: (b) Food spoilage. Harmful microorganisms can spoil food, while beneficial ones can aid in processes like decomposition and nitrogen fixation.\n\n5. Short answer: Fermentation is a metabolic process that converts sugars into acids, gases, or alcohol. It is crucial in food preservation as it prevents spoilage by producing substances that inhibit the growth of harmful microorganisms, such as lactic acid in yogurt and alcohol in beer.\n\n6. Short answer: Harmful microorganisms can cause diseases (e.g., bacteria causing infections) while beneficial microorganisms aid in processes like digestion (e.g., gut bacteria) or food production (e.g., yeast in baking). The distinction lies in their effects on human health and the environment.\n\n7. Short answer: The nitrogen cycle describes the movement of nitrogen through the atmosphere, soil, and living organisms. Microorganisms play key roles, including nitrogen-fixing bacteria that convert atmospheric nitrogen into forms usable by plants, and denitrifying bacteria that return nitrogen to the atmosphere.\n\n8. Long answer: Microorganisms inhabit diverse environments, including soil, water, and extreme conditions like hot springs. They adapt through various means, such as forming spores to withstand harsh conditions or developing symbiotic relationships with other organisms for survival.\n\n9. Long answer: Microorganisms play a critical role in food preservation through methods like fermentation, refrigeration, and dehydration. Fermentation not only extends shelf life but also enhances flavor and nutritional value, as seen in products like pickles and yogurt.\n\n10. Long answer: Harmful microorganisms, such as bacteria and viruses, can lead to diseases like influenza and foodborne illnesses. Their impact on human health is significant, as they can cause outbreaks and require medical intervention to manage.\n\n11. Diagram: Draw a nitrogen cycle with labeled components such as nitrogen-fixing bacteria, nitrifying bacteria, denitrifying bacteria, and plants. Marking points include clear labels for each component, arrows showing the flow of nitrogen, and an explanation of each process involved.",
+    "createdAt": "2026-05-25T11:10:16.946Z",
+    "updatedAt": "2026-05-25T11:10:55.991Z"
+  },
+  {
+    "id": "745994835",
+    "title": "science test",
+    "quizTopic": "force and pressure",
+    "subject": "english, science",
+    "className": "8th",
+    "schoolName": "Delhi Public School",
+    "dueDate": "28-06-2026",
+    "assignedOn": "25-05-2026",
+    "additionalInfo": "",
+    "fileUrl": "/uploads/file-1779707010982-726018752.pdf",
+    "status": "completed",
+    "questionTypes": [
+      {
+        "id": "1",
+        "type": "Multiple Choice Questions",
+        "count": 4,
+        "marks": 1
+      },
+      {
+        "id": "2",
+        "type": "Short Questions",
+        "count": 3,
+        "marks": 2
+      },
+      {
+        "id": "1779706990772",
+        "type": "Long Questions",
+        "count": 3,
+        "marks": 5
+      }
+    ],
+    "totalQuestions": 10,
+    "totalMarks": 25,
+    "aiResponseText": "The exam paper covers topics related to forces and pressure.",
+    "sections": [
+      {
+        "title": "Section A",
+        "instruction": "Multiple Choice Questions. Attempt all questions. Each question carries 1 mark.",
+        "questions": [
+          {
+            "text": "What is the effect of force on an object? (a) It can only change the shape. (b) It can change the state of motion. (c) It has no effect. (d) It can change the color.",
+            "difficulty": "Easy",
+            "marks": 1
+          },
+          {
+            "text": "Which of the following is a non-contact force? (a) Friction (b) Tension (c) Gravity (d) Normal",
+            "difficulty": "Easy",
+            "marks": 1
+          },
+          {
+            "text": "How does increasing the area affect pressure? (a) Pressure increases (b) Pressure decreases (c) Pressure remains the same (d) Area has no effect on pressure",
+            "difficulty": "Moderate",
+            "marks": 1
+          },
+          {
+            "text": "What is atmospheric pressure? (a) Pressure exerted by solid objects (b) Pressure exerted by liquid only (c) Pressure exerted by the weight of air (d) Pressure exerted by gases at high altitudes",
+            "difficulty": "Moderate",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "title": "Section B",
+        "instruction": "Short Questions. Attempt all questions. Each question carries 2 marks.",
+        "questions": [
+          {
+            "text": "What is the relationship between force, mass, and acceleration? Explain in brief.",
+            "difficulty": "Moderate",
+            "marks": 2
+          },
+          {
+            "text": "Describe the difference between contact forces and non-contact forces with examples.",
+            "difficulty": "Moderate",
+            "marks": 2
+          },
+          {
+            "text": "Explain how pressure is exerted by liquids and give an example.",
+            "difficulty": "Moderate",
+            "marks": 2
+          }
+        ]
+      },
+      {
+        "title": "Section C",
+        "instruction": "Long Questions. Attempt all questions. Each question carries 5 marks.",
+        "questions": [
+          {
+            "text": "Discuss the factors affecting pressure and how they relate to everyday life situations such as diving or using a syringe.",
+            "difficulty": "Hard",
+            "marks": 5
+          },
+          {
+            "text": "Explain the concept of force and its different types, providing examples for each type.",
+            "difficulty": "Hard",
+            "marks": 5
+          },
+          {
+            "text": "Illustrate and explain the principle of Pascal's law and its applications in hydraulic systems.",
+            "difficulty": "Hard",
+            "marks": 5
+          }
+        ]
+      }
+    ],
+    "answerKey": "1. (b)\n\n2. (c)\n\n3. (b)\n\n4. (c)",
+    "createdAt": "2026-05-25T11:03:30.992Z",
+    "updatedAt": "2026-05-25T11:03:49.745Z"
+  },
+  {
+    "id": "219322007",
+    "title": "science assignment",
+    "quizTopic": "force and pressure",
+    "subject": "english, science",
+    "className": "8th",
+    "schoolName": "Delhi Public School",
+    "dueDate": "28-05-2026",
+    "assignedOn": "25-05-2026",
+    "additionalInfo": "",
+    "fileUrl": "/uploads/file-1779706845550-205019925.pdf",
+    "status": "completed",
+    "questionTypes": [
+      {
+        "id": "1",
+        "type": "Multiple Choice Questions",
+        "count": 4,
+        "marks": 1
+      },
+      {
+        "id": "2",
+        "type": "Short Questions",
+        "count": 3,
+        "marks": 2
+      },
+      {
+        "id": "3",
+        "type": "Diagram/Graph-Based Questions",
+        "count": 5,
+        "marks": 5
+      },
+      {
+        "id": "4",
+        "type": "Numerical Problems",
+        "count": 5,
+        "marks": 5
+      }
+    ],
+    "totalQuestions": 17,
+    "totalMarks": 60,
+    "aiResponseText": "The exam paper contains questions on force and pressure concepts.",
+    "sections": [
+      {
+        "title": "Section A",
+        "instruction": "Multiple Choice Questions. Attempt all questions. Each question carries 1 mark.",
+        "questions": [
+          {
+            "text": "What is the effect of force on an object? (a) Changes its color (b) Changes its state of motion (c) Changes its temperature (d) Changes its mass",
+            "difficulty": "Easy",
+            "marks": 1
+          },
+          {
+            "text": "Which of the following is a non-contact force? (a) Friction (b) Magnetic force (c) Tension (d) Applied force",
+            "difficulty": "Easy",
+            "marks": 1
+          },
+          {
+            "text": "What causes pressure in a liquid? (a) Mass of the liquid (b) Height of the liquid column (c) Density of the liquid (d) All of the above",
+            "difficulty": "Moderate",
+            "marks": 1
+          },
+          {
+            "text": "Which of the following instruments measures pressure? (a) Barometer (b) Thermometer (c) Voltmeter (d) Anemometer",
+            "difficulty": "Easy",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "title": "Section B",
+        "instruction": "Short Questions. Attempt all questions. Each question carries 2 marks.",
+        "questions": [
+          {
+            "text": "Explain how a force can change the shape of an object.",
+            "difficulty": "Moderate",
+            "marks": 2
+          },
+          {
+            "text": "Differentiate between contact and non-contact forces with examples.",
+            "difficulty": "Hard",
+            "marks": 2
+          },
+          {
+            "text": "Describe the relationship between force, area, and pressure.",
+            "difficulty": "Moderate",
+            "marks": 2
+          }
+        ]
+      },
+      {
+        "title": "Section C",
+        "instruction": "Diagram/Graph-Based Questions. Attempt all questions. Each question carries 5 marks.",
+        "questions": [
+          {
+            "text": "Draw a labeled diagram illustrating the concept of atmospheric pressure.",
+            "difficulty": "Moderate",
+            "marks": 5
+          },
+          {
+            "text": "Sketch a diagram showing the forces acting on an object at rest on a surface.",
+            "difficulty": "Moderate",
+            "marks": 5
+          },
+          {
+            "text": "Draw a labeled diagram of a liquid column and indicate how pressure changes with depth.",
+            "difficulty": "Moderate",
+            "marks": 5
+          },
+          {
+            "text": "Sketch a diagram to illustrate how pressure is exerted by a pointed object.",
+            "difficulty": "Easy",
+            "marks": 5
+          },
+          {
+            "text": "Draw a labeled diagram of a barometer and explain its working principle.",
+            "difficulty": "Hard",
+            "marks": 5
+          }
+        ]
+      },
+      {
+        "title": "Section D",
+        "instruction": "Numerical Problems. Attempt all questions. Each question carries 5 marks.",
+        "questions": [
+          {
+            "text": "A force of 150 N is applied on an area of 0.3 m². Calculate the pressure exerted on the surface.",
+            "difficulty": "Hard",
+            "marks": 5
+          },
+          {
+            "text": "Calculate the pressure at a depth of 10 m in a liquid with a density of 1000 kg/m³. (g = 9.81 m/s²)",
+            "difficulty": "Hard",
+            "marks": 5
+          },
+          {
+            "text": "If a box exerts a pressure of 2000 Pa on the ground and has a base area of 0.5 m², find the force exerted by the box.",
+            "difficulty": "Hard",
+            "marks": 5
+          },
+          {
+            "text": "Find the pressure exerted by a column of mercury that is 0.76 m high. (Density of mercury = 13,600 kg/m³)",
+            "difficulty": "Hard",
+            "marks": 5
+          },
+          {
+            "text": "A cylinder has a cross-sectional area of 0.1 m² and is subjected to a force of 1000 N. Calculate the pressure in the cylinder.",
+            "difficulty": "Hard",
+            "marks": 5
+          }
+        ]
+      }
+    ],
+    "answerKey": "1. (b)\n\n2. (b)\n\n3. (d)\n\n4. (a)\n\n5. Explanation of force effects on shape.\n\n6. Differences with examples.\n\n7. Relationship explanation.\n\n8. Atmospheric pressure diagram.\n\n9. Forces on object diagram.\n\n10. Pressure change diagram.\n\n11. Pointed object diagram.\n\n12. Barometer diagram and explanation.\n\n13. 5000 Pa.\n\n14. 9810 Pa.\n\n15. 1000 N.\n\n16. 101,325 Pa.\n\n17. 10,000 Pa.",
+    "createdAt": "2026-05-25T11:00:45.697Z",
+    "updatedAt": "2026-05-25T11:01:30.308Z"
+  },
+  {
+    "id": "935501341",
+    "title": "scient unit test",
+    "quizTopic": "force and pressure",
+    "subject": "english, science",
+    "className": "8th",
+    "schoolName": "Delhi Public School",
+    "dueDate": "27-05-2026",
+    "assignedOn": "25-05-2026",
+    "additionalInfo": "",
+    "fileUrl": "/uploads/file-1779706147987-398527327.pdf",
+    "status": "completed",
+    "questionTypes": [
+      {
+        "id": "1",
+        "type": "Multiple Choice Questions",
+        "count": 4,
+        "marks": 1
+      },
+      {
+        "id": "2",
+        "type": "Short Questions",
+        "count": 3,
+        "marks": 2
+      },
+      {
+        "id": "3",
+        "type": "Diagram/Graph-Based Questions",
+        "count": 5,
+        "marks": 5
+      },
+      {
+        "id": "4",
+        "type": "Numerical Problems",
+        "count": 5,
+        "marks": 5
+      }
+    ],
+    "totalQuestions": 17,
+    "totalMarks": 60,
+    "aiResponseText": "Here is a formal exam question paper based on the specified topic.",
+    "sections": [
+      {
+        "title": "Section A",
+        "instruction": "Multiple Choice Questions. Attempt all questions. Each question carries 1 mark.",
+        "questions": [
+          {
+            "text": "What is the primary effect of force on an object? (a) It always increases its size (b) It can change its state of motion (c) It always decreases its speed (d) It has no effect",
+            "difficulty": "Easy",
+            "marks": 1
+          },
+          {
+            "text": "Which force acts at a distance without physical contact? (a) Friction (b) Gravitational force (c) Tension (d) Normal force",
+            "difficulty": "Easy",
+            "marks": 1
+          },
+          {
+            "text": "What happens to the pressure when the area of contact increases? (a) It increases (b) It stays the same (c) It decreases (d) It doubles",
+            "difficulty": "Moderate",
+            "marks": 1
+          },
+          {
+            "text": "Which of the following is an example of a contact force? (a) Gravitational force (b) Magnetic force (c) Frictional force (d) Electrostatic force",
+            "difficulty": "Easy",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "title": "Section B",
+        "instruction": "Short Questions. Attempt all questions. Each question carries 2 marks.",
+        "questions": [
+          {
+            "text": "Explain how force can change the shape of an object with an example.",
+            "difficulty": "Moderate",
+            "marks": 2
+          },
+          {
+            "text": "What is atmospheric pressure and how does it affect objects on Earth?",
+            "difficulty": "Moderate",
+            "marks": 2
+          },
+          {
+            "text": "Define contact forces and provide two examples.",
+            "difficulty": "Easy",
+            "marks": 2
+          }
+        ]
+      },
+      {
+        "title": "Section C",
+        "instruction": "Diagram/Graph-Based Questions. Attempt all questions. Each question carries 5 marks.",
+        "questions": [
+          {
+            "text": "Draw a labeled diagram illustrating the difference between contact and non-contact forces.",
+            "difficulty": "Moderate",
+            "marks": 5
+          },
+          {
+            "text": "Sketch a diagram showing how pressure varies with depth in a fluid.",
+            "difficulty": "Moderate",
+            "marks": 5
+          },
+          {
+            "text": "Draw a labeled diagram of a barometer and explain its function.",
+            "difficulty": "Hard",
+            "marks": 5
+          },
+          {
+            "text": "Sketch a diagram representing the forces acting on a falling object.",
+            "difficulty": "Moderate",
+            "marks": 5
+          },
+          {
+            "text": "Draw a labeled diagram showing the effect of pressure on a submerged object.",
+            "difficulty": "Moderate",
+            "marks": 5
+          }
+        ]
+      },
+      {
+        "title": "Section D",
+        "instruction": "Numerical Problems. Attempt all questions. Each question carries 5 marks.",
+        "questions": [
+          {
+            "text": "A force of 200 N is applied to an area of 0.1 m². Calculate the pressure exerted in pascals.",
+            "difficulty": "Hard",
+            "marks": 5
+          },
+          {
+            "text": "If a liquid exerts a pressure of 1500 pascals at a depth of 10 m, find the density of the liquid. (Use g = 9.8 m/s²)",
+            "difficulty": "Hard",
+            "marks": 5
+          },
+          {
+            "text": "Calculate the force required to exert a pressure of 300 pascals on an area of 0.5 m².",
+            "difficulty": "Moderate",
+            "marks": 5
+          },
+          {
+            "text": "A cylinder has a radius of 0.2 m and weighs 400 N. Calculate the pressure it exerts on the ground.",
+            "difficulty": "Hard",
+            "marks": 5
+          },
+          {
+            "text": "Find the pressure at a depth of 5 m in a liquid with a density of 1000 kg/m³. (Use g = 9.8 m/s²)",
+            "difficulty": "Hard",
+            "marks": 5
+          }
+        ]
+      }
+    ],
+    "answerKey": "1. (b)\n\n2. (b)\n\n3. (c)\n\n4. (c)\n\n5. Example: A balloon being squeezed changes its shape when force is applied.\n\n6. Atmospheric pressure is the pressure exerted by the weight of the atmosphere; it affects weather and altitude.\n\n7. Contact forces are those that require physical contact; examples: friction, tension.\n\n8. Diagram of contact and non-contact forces showing examples.\n\n9. Diagram showing pressure variation with depth in fluid.\n\n10. Barometer diagram with explanation of measuring atmospheric pressure.\n\n11. Diagram representing forces on a falling object like gravity and air resistance.\n\n12. Diagram showing pressure effects on submerged objects.\n\n13. Pressure = Force/Area = 200 N / 0.1 m² = 2000 Pa.\n\n14. Density = Pressure / (g * Depth) = 1500 Pa / (9.8 m/s² * 10 m).\n\n15. Force = Pressure * Area = 300 Pa * 0.5 m².\n\n16. Pressure = Weight / Area = 400 N / (π * (0.2 m)²).\n\n17. Pressure = Density * g * Depth = 1000 kg/m³ * 9.8 m/s² * 5 m.",
+    "createdAt": "2026-05-25T10:49:08.239Z",
+    "updatedAt": "2026-05-25T10:49:53.967Z"
+  }
+]
