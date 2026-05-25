@@ -5,7 +5,7 @@ A premium, full-stack AI-powered question paper and marking scheme creator built
 ## Live Demo
 
 Frontend: `https://your-frontend.vercel.app`  
-Backend API: `https://your-backend.onrender.com`
+Backend API: `https://vedaai-assignment-jq9i.onrender.com`
 
 ---
 
@@ -66,7 +66,7 @@ sequenceDiagram
 All REST endpoints operate on 
 
 Production API Base URL:
-`https://your-backend.onrender.com/api/assignments`
+`https://vedaai-assignment-jq9i.onrender.com`
 
 Local Development API:
 `http://localhost:5000/api/assignments` :
