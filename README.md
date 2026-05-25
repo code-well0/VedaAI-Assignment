@@ -1,4 +1,4 @@
-# **VedaAI — AI Assessment Creator**
+# **VedaAI - AI Assessment Creator**
 
 A premium, full-stack AI-powered question paper and marking scheme creator built for teachers. It matches the Figma design screenshots with high visual fidelity, supports background queuing for generation, communicates state transitions in real time using WebSockets, and offers premium A4 PDF downloads.
 
