@@ -2,6 +2,7 @@
 
 import { Assignment } from '@/lib/store';
 import { formatSubjectLabel } from '@/lib/subjectUtils';
+import { formatMarksLabel, stripEmbeddedMarksFromText } from '@/lib/questionDisplay';
 
 interface QuestionPaperPreviewProps {
   assignment: Assignment;
@@ -154,26 +155,28 @@ export default function QuestionPaperPreview({ assignment }: QuestionPaperPrevie
                     <li
                       key={qIdx}
                       style={{
-                        display: 'flex',
-                        alignItems: 'flex-start',
-                        gap: '4px',
-                        marginBottom: '6px',
+                        position: 'relative',
+                        marginBottom: '10px',
                         fontSize: '13px',
                         lineHeight: '1.6',
+                        paddingRight: '5.5rem',
                       }}
                     >
-                      {/* Number */}
-                      <span style={{ minWidth: '22px', flexShrink: 0 }}>{qNum}.</span>
-
-                      {/* Full question line: [Difficulty] text [X Marks] */}
-                      <span style={{ flex: 1 }}>
-                        <span style={{ fontWeight: 400 }}>
-                          [{difficultyLabel(question.difficulty)}]{' '}
-                        </span>
-                        {question.text}
-                        <span style={{ fontWeight: 400, color: '#374151' }}>
-                          {' '}[{question.marks} Mark{question.marks > 1 ? 's' : ''}]
-                        </span>
+                      <span style={{ fontWeight: 400 }}>
+                        {qNum}. [{difficultyLabel(question.difficulty)}]{' '}
+                      </span>
+                      {stripEmbeddedMarksFromText(question.text)}
+                      <span
+                        style={{
+                          position: 'absolute',
+                          right: 0,
+                          bottom: 0,
+                          whiteSpace: 'nowrap',
+                          color: '#374151',
+                          fontWeight: 400,
+                        }}
+                      >
+                        {formatMarksLabel(question.marks)}
                       </span>
                     </li>
                   );

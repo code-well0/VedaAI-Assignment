@@ -2,12 +2,45 @@ import PDFDocument from 'pdfkit';
 import { Response } from 'express';
 import { Assignment } from '../types';
 import { formatSubjectLabel } from './assignmentIntro';
+import { stripEmbeddedMarksFromText } from './questionPaperPlan';
 
 /** Maps internal difficulty to the display label shown on the paper */
 function diffLabel(d: string): string {
   if (d === 'Easy') return 'Easy';
   if (d === 'Hard') return 'Hard';
   return 'Moderate';
+}
+
+/** Question body on the left; marks aligned to the end of the last line on the right */
+function renderQuestionWithTrailingMarks(
+  doc: PDFKit.PDFDocument,
+  body: string,
+  marksLabel: string,
+  x: number,
+  y: number,
+  maxWidth: number,
+  lineGap: number,
+  textColor: string,
+  marksColor: string
+): number {
+  doc.font('Helvetica').fontSize(10).fillColor(textColor);
+  const marksW = doc.widthOfString(marksLabel) + 8;
+  const textW = Math.max(80, maxWidth - marksW);
+  const blockH = doc.heightOfString(body, { width: textW, lineGap });
+  const lineH = doc.currentLineHeight(true);
+
+  doc.text(body, x, y, { width: textW, lineGap });
+  const lastLineY = y + Math.max(0, blockH - lineH);
+
+  doc
+    .fillColor(marksColor)
+    .text(marksLabel, x + maxWidth - marksW + 4, lastLineY, {
+      width: marksW,
+      lineBreak: false,
+      align: 'right',
+    });
+
+  return y + blockH;
 }
 
 /**
@@ -179,20 +212,25 @@ export async function generateAssignmentPDF(assignment: Assignment, res: Respons
         .text(section.instruction, L, doc.y, { width: contentW });
       doc.moveDown(0.6);
 
-      // Questions — single text block with full page width (avoid continued+small width)
       for (const question of section.questions) {
         if (doc.y > doc.page.height - 100) doc.addPage();
 
+        const qY = doc.y;
         const marksLabel = `[${question.marks} Mark${question.marks > 1 ? 's' : ''}]`;
-        const line = `${globalQIndex}. [${diffLabel(question.difficulty)}] ${question.text} ${marksLabel}`;
-
-        doc
-          .font('Helvetica')
-          .fontSize(10)
-          .fillColor(primaryColor)
-          .text(line, L, doc.y, { width: contentW, lineGap: 3 });
-
-        doc.moveDown(0.5);
+        const qText = stripEmbeddedMarksFromText(question.text);
+        const body = `${globalQIndex}. [${diffLabel(question.difficulty)}] ${qText}`;
+        const endY = renderQuestionWithTrailingMarks(
+          doc,
+          body,
+          marksLabel,
+          L,
+          qY,
+          contentW,
+          3,
+          primaryColor,
+          mutedColor
+        );
+        doc.y = endY + 6;
         globalQIndex++;
       }
 

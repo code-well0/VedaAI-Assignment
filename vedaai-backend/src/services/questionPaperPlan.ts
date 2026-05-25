@@ -242,7 +242,16 @@ export function sanitizeQuestionText(text: string, topic: string, assignment?: A
     cleaned = cleaned.replace(new RegExp(`^\\s*${escaped}\\s*[-:–]\\s*`, 'i'), '');
   }
 
+  cleaned = stripEmbeddedMarksFromText(cleaned);
   return cleaned.replace(/\s{2,}/g, ' ').replace(/\s+([.,;:])/g, '$1').trim();
+}
+
+/** Remove marks labels the model sometimes appends inside question text */
+export function stripEmbeddedMarksFromText(text: string): string {
+  return String(text)
+    .replace(/\s*\[\s*\d+\s*Marks?\s*\]\s*\.?\s*$/gi, '')
+    .replace(/\s*\(\s*\d+\s*marks?\s*\)\s*\.?\s*$/gi, '')
+    .trim();
 }
 
 export function questionMentionsChapterLabel(text: string): boolean {
